@@ -1,57 +1,51 @@
-🛡️ Spotify God Mode V7 (Project Titan)
-Lo script definitivo per un'esperienza musicale senza interruzioni e visivamente perfetta.
+# 🛡️ Spotify God Mode V7 (Project Titan)
 
-Questa suite "All-in-One" combina un potente motore interno con uno scudo visivo avanzato per garantire la massima pulizia dell'interfaccia e prestazioni elevate. Nessun compromesso.
+Lo script definitivo per un’esperienza Spotify **senza interruzioni**, **pulita** e **visivamente perfetta**.
 
-✨ Caratteristiche Principali
-🚀 Hybrid Engine V7: Motore interno ottimizzato che intercetta le richieste alla radice per prevenire interruzioni.
+Questa suite **All-in-One** combina un potente motore interno con uno scudo visivo avanzato per garantire **massima pulizia dell’interfaccia** e **prestazioni elevate**.  
+Nessun compromesso.
 
-👁️ Visual Shield & UI Cleaner: Rimuove elementi grafici indesiderati, banner giganti (HPTO), e riquadri "Sponsorizzato" lasciando le playlist pulite.
+---
 
-🔒 God Mode Badge: Indicatore di stato integrato che conferma la protezione attiva in tempo reale.
+## ✨ Caratteristiche Principali
 
-🎨 Theme Compatible: Funziona perfettamente sopra qualsiasi tema personalizzato Spicetify grazie al posizionamento intelligente.
+🚀 **Hybrid Engine V7**  
+Motore interno ottimizzato che intercetta le richieste alla radice per prevenire interruzioni e contenuti indesiderati.
 
-🛠️ HPTO Killer: Modulo specifico per eliminare le sezioni "Takeover" nella Home.
+👁️ **Visual Shield & UI Cleaner**  
+Rimuove elementi grafici invasivi, banner giganti (HPTO) e riquadri *“Sponsorizzato”*, lasciando playlist e Home completamente pulite.
 
-📦 Installazione Rapida
-Assicurati di avere Spicetify installato.
+🔒 **God Mode Badge**  
+Indicatore di stato integrato che conferma in tempo reale che la protezione è attiva.
 
-Metodo 1: Installazione Automatica (Consigliato)
-Apri il terminale (PowerShell o Bash) ed esegui questi comandi per scaricare e attivare lo script direttamente:
+🎨 **Theme Compatible**  
+Funziona perfettamente sopra qualsiasi tema personalizzato **Spicetify**, grazie a un posizionamento intelligente e non invasivo.
 
-Bash
+🛠️ **HPTO Killer**  
+Modulo dedicato all’eliminazione totale delle sezioni *“Takeover”* nella Home.
+
+---
+
+## 📦 Installazione Rapida
+
+Assicurati di avere **Spicetify** correttamente installato e funzionante.
+
+---
+
+### Metodo 1: Installazione Automatica (Consigliato)
+
+Apri il terminale (**PowerShell**, **Bash**, **Zsh**) ed esegui:
+
+```bash
 # 1. Entra nella cartella delle estensioni
 cd "$(spicetify path)/Extensions"
 
-# 2. Scarica lo script (Sostituisci URL_RAW con il link "Raw" del file noAdsV7.js dalla tua repo)
+# 2. Scarica lo script
+# (sostituisci TUO_NOME_UTENTE con il tuo username GitHub)
 curl -O https://raw.githubusercontent.com/TUO_NOME_UTENTE/spicetify-noads-godmode/main/noAdsV7.js
 
-# 3. Attiva solo questo script (rimuovendo vecchi conflitti)
+# 3. Attiva solo questo script (evita conflitti con estensioni vecchie)
 spicetify config extensions noAdsV7.js
 
 # 4. Applica le modifiche
 spicetify apply
-Metodo 2: Installazione Manuale
-Scarica il file noAdsV7.js da questa repository.
-
-Spostalo nella cartella delle estensioni di Spicetify:
-
-Windows: %appdata%\spicetify\Extensions\
-
-Linux/Mac: ~/.config/spicetify/Extensions/
-
-Esegui i comandi di attivazione:
-
-Bash
-spicetify config extensions noAdsV7.js
-spicetify apply
-⚙️ Aggiornamento
-Se viene rilasciata una nuova versione, basta riscaricare il file e riapplicare:
-
-Bash
-spicetify apply
-⚠️ Disclaimer
-Questo progetto è a scopo educativo e di personalizzazione dell'interfaccia utente. L'autore non è affiliato con Spotify AB.
-
-Created with ❤️ for the community.
